@@ -3,7 +3,7 @@ const path          = require('path');
 const app           = express();
 
 const host = 'localhost';
-const port = 80;
+const port = 5000;
 
 const appRouting    = require('./routers/app-route');
 app.use('/', appRouting);
